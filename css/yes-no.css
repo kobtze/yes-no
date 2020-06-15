@@ -40,8 +40,10 @@ input {
     margin-bottom: 10px;
 }
 
-.answer + img {
-    max-width: 300px;
+@media screen and (max-width: 660px) {
+    .ans img {
+        max-width: 300px;
+    }
 }
 
 
