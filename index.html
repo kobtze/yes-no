@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Handson</title>
+    <link rel="stylesheet" href="css/yes-no.css">
+</head>
+
+<body>
+    <h1>Ask anything</h1>
+    <h2>Yes/No</h2>
+    <input class="question" type="text" oninput="onGetAns()" placeholder="Your question">
+    <p class="loading" hidden>Loading...</p>
+    <section class="ans" hidden>
+        <img src="" onload="onImgLoaded()" />
+        <h2 class="answer"></h2>
+    </section>
+
+    <script src="lib/jquery.js"></script>
+    <script src="js/yes-no-service.js"></script>
+    <script src="js/yes-no-controller.js"></script>
+</body>
+
+</html>
